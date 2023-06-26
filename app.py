@@ -32,7 +32,7 @@ screen_reso = st.selectbox("Screen Resolution",['1920x1080','1366x768', '1600x90
 screen_size = st.number_input("Screen Size (in cm)")
 
 # cpu brand
-cpu = st.selectbox("CPU Brand",df['cpu_brand'].unique())
+cpu = st.selectbox("Processor",df['cpu_brand'].unique())
 
 #HDD
 hdd= st.selectbox("HDD (in GB)",[0,128,256,512,1024,2048])
@@ -41,7 +41,7 @@ hdd= st.selectbox("HDD (in GB)",[0,128,256,512,1024,2048])
 ssd= st.selectbox("SSD (in GB)",[0,128,256,512,1024,2048])
 
 #GPU
-gpu = st.selectbox("GPU Brand",df['Gpu_brand'].unique())
+gpu = st.selectbox("GPU",df['Gpu_brand'].unique())
 
 #OS
 os = st.selectbox("Operating System",df['os'].unique())
