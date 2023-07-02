@@ -1,6 +1,6 @@
 # Laptop Price Predictor
 
-This is a simple web application built using Streamlit that predicts the price of a laptop based on various features. The prediction model is trained using the Random Forest algorithm. The application also includes data analysis and feature engineering steps.
+This is a machine learning that predicts the price of a laptop based on various features. The prediction model is trained using the Random Forest algorithm. The application also includes data analysis and feature engineering steps.
 
 ## You can check this project at : https://laptop-price-predictor-1gcb.onrender.com/
 
